@@ -2,7 +2,7 @@ module.exports = function(context) {
   console.log('Installing VLC Framework To iOS Project');
 
   var util = context.requireCordovaModule("cordova-lib/src/cordova/util");
-  var parser = context.requireCordovaModule('cordova-lib/src/configparser/ConfigParser');
+  var parser = context.requireCordovaModule("cordova-common").ConfigParser;
   var xml = util.projectConfig(context.opts.projectRoot);
   var config = new parser(xml);
 
