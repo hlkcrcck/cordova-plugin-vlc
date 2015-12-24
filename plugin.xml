@@ -13,9 +13,9 @@
         <clobbers target="audioplayer"/>
     </js-module>
 
-    <dependency id="org.apache.cordova.device" />
-    <dependency id="org.apache.cordova.media" />
-    <dependency id="org.apache.cordova.network-information" />
+    <dependency id="cordova-plugin-device" />
+    <dependency id="cordova-plugin-media" />
+    <dependency id="cordova-plugin-network-information" />
 
     <!-- ios -->
     <platform name="ios">
